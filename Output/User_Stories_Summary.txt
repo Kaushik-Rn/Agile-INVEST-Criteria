@@ -1,0 +1,78 @@
+Independent Criteria Observations:
+                    User Story #                      Task                         Task Owner
+Category:Products
+                         7                         Task: Add                 Task Owner: Seller
+                         5                         Task: Update              Task Owner: Seller
+Category:Payment
+                         6                         Task: Make                Task Owner: Buyer
+                         8                         Task: Make                Task Owner: Customer
+Category:Profile
+                         3                         Task: Delete              Task Owner: Administrator
+                         1                         Task: Edit                Task Owner: Buyer
+                         2                         Task: Modify              Task Owner: Administrator
+Category:Cart
+                         4                         Task: Modify              Task Owner: Buyer
+
+--------------------
+Negotiable Criteria Observations:
+                    User Story #                      Task
+Role:Administrator
+                         3                         Task: Delete - Profile
+                         2                         Task: Modify - Profile
+Role:Customer
+                         8                         Task: Make - Payment
+Role:Seller
+                         7                         Task: Add - Products
+                         5                         Task: Update - Products
+Role:Buyer
+                         1                         Task: Edit - Profile
+                         6                         Task: Make - Payment
+                         4                         Task: Modify - Cart
+
+--------------------
+Valuable Criteria Observations:
+                    User Story #                      Comments
+                         3                         The action 'Delete' does not exist. Please contact Admin to update Json file.
+                         5                         The action 'Update' cannot be performed by Seller. Please contact the Admin to update Json file if this is incorrect
+                         6                         The action 'Make' does not exist. Please contact Admin to update Json file.
+                         7                         The action 'Add' cannot be performed by Seller. Please contact the Admin to update Json file if this is incorrect
+                         8                         The action 'Make' does not exist. Please contact Admin to update Json file.
+
+--------------------
+Estimable Criteria Observations:
+                    User Story #:7                 As a Seller or owner, I want to add products to my account, So that I can make them aavailable for sale
+                                                   Observation(s):Presence of multiple roles. Please have one role per User Story.
+
+--------------------
+Small Criteria Observations:
+                    User Story #:7                 As a Seller or owner, I want to add products to my account, So that I can make them aavailable for sale
+                                                   Observation(s):The sentence has a occurence of 'or'. Reframe Story with no occurence of 'or'
+
+--------------------
+Testable Criteria Observations:
+
+                    User Story #:1 As a Buyer, I want to edit my Profile, So that I can make updates
+                    Top 3 topics in Acceptance Criteria for User Story #1 : [['field', 'editable', 'date']]
+                    User Story #:1 Observation: Acceptance Criteria should speak more about the User Story
+
+                    User Story #:2 As a Administrator, I want to modify User Profile, So that I can correct user information
+                    Top 3 topics in Acceptance Criteria for User Story #2 : [['field', 'click', 'be']]
+                    User Story #:2 Observation: Acceptance Criteria should speak more about the User Story
+
+                    User Story #:3 As a Administrator, I want to delete non-User Profile, So that I can understand the count of active users
+                    Top 3 topics in Acceptance Criteria for User Story #3 : [['click', 'delete', 'button']]
+                    User Story #:3 Observation: Acceptance Criteria should speak more about the User Story
+
+                    User Story #:5 As a Seller, I want to update products, So that I can see the right description
+                    Top 3 topics in Acceptance Criteria for User Story #5 : [['be', 'show', 'product']]
+                    User Story #:5 Observation: Acceptance Criteria should speak more about the User Story
+
+                    User Story #:6 As a Buyer, I want to make online payment for items in my shopping cart, So that I can order my items
+                    Top 3 topics in Acceptance Criteria for User Story #6 : [['online', 'bank', 'card']]
+                    User Story #:6 Observation: Acceptance Criteria should speak more about the User Story
+
+                    User Story #:8 As a Customer, I want to make cash payment, So that I can order my items
+                    Top 3 topics in Acceptance Criteria for User Story #8 : [['contact', 'successful', 'validation']]
+                    User Story #:8 Observation: Acceptance Criteria should speak more about the User Story
+
+--------------------
