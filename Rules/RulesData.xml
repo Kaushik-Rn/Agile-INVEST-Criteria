@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<data>
+    <action name="Create">
+        <role>Administrator</role>  
+        <role>Senior HR Manager</role>     
+    </action>
+    <action name="Edit">
+       <role>Administrator</role>
+       <role>Buyer</role>
+    </action>
+    <action  name="Deactivate">
+       <role>Administrator</role>
+    </action>
+    <action  name="Modify">
+       <role>Administrator</role>
+       <role>Buyer</role>
+    </action>
+    <action  name="Export">
+       <role>Administrator</role>
+    </action>
+    <action  name="Add">
+       <role>Buyer</role>
+    </action>
+    <action  name="Chat">
+       <role>Buyer</role>
+    </action>
+    <action  name="Submit">
+       <role>Buyer</role>
+    </action>
+    <action  name="View">
+	<role>Buyer</role>
+	<role>Manager</role>
+    </action>
+    <action  name="Search">
+	<role>Buyer</role>
+    </action>
+    <action  name="Review">
+	<role>Buyer</role>
+    </action>
+    <action  name="Checkout">
+	<role>Buyer</role>
+    </action>
+    <action  name="Register">
+	<role>Buyer</role>
+    </action>
+     <action  name="Pay">
+	<role>Buyer</role>
+    </action>
+     <action  name="File">
+	<role>Buyer</role>
+	<role>Manager</role>
+    </action>
+     <action  name="Update">
+	<role>Manager</role>
+    </action>
+      <action  name="Send">
+	<role>Administrator</role>
+	<role>Manager</role>
+    </action>
+    <action  name="Return">
+	<role>Manager</role>
+    </action>
+</data>
